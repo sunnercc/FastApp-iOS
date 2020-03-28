@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5F55B04A70C5F2A0EFC89A /* libPods-FastApp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A567CBBD5F109AF324BBAAAC /* libPods-FastApp-iOS.a */; };
 		A22D5FB722BCD60A0085FBE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FB622BCD60A0085FBE6 /* AppDelegate.m */; };
 		A22D5FBA22BCD60A0085FBE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FB922BCD60A0085FBE6 /* ViewController.m */; };
 		A22D5FBD22BCD60A0085FBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22D5FBB22BCD60A0085FBE6 /* Main.storyboard */; };
 		A22D5FBF22BCD60A0085FBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22D5FBE22BCD60A0085FBE6 /* Assets.xcassets */; };
 		A22D5FC222BCD60A0085FBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22D5FC022BCD60A0085FBE6 /* LaunchScreen.storyboard */; };
 		A22D5FC522BCD60A0085FBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FC422BCD60A0085FBE6 /* main.m */; };
+		A22D5FD922BCDF0B0085FBE6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FD822BCDF0B0085FBE6 /* BaseModel.m */; };
+		A22D5FDF22BCE11C0085FBE6 /* Vendor in Resources */ = {isa = PBXBuildFile; fileRef = A22D5FDE22BCE11C0085FBE6 /* Vendor */; };
+		A22D5FE122BCE12F0085FBE6 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = A22D5FE022BCE12F0085FBE6 /* Resources */; };
+		A22D5FE722BCE8AB0085FBE6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FE622BCE8AB0085FBE6 /* BaseViewController.m */; };
+		A22D5FEA22BCE8D00085FBE6 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FE922BCE8D00085FBE6 /* BaseNavigationController.m */; };
+		A22D5FF022BCE9200085FBE6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FEF22BCE9200085FBE6 /* BaseTableViewController.m */; };
+		A22D5FF322BCE9510085FBE6 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D5FF222BCE9510085FBE6 /* BaseTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2046D5F11A2C0D7137E7FD59 /* Pods-FastApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-FastApp-iOS/Pods-FastApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6531EE95B5E68649E0544132 /* Pods-FastApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastApp-iOS.debug.xcconfig"; path = "Target Support Files/Pods-FastApp-iOS/Pods-FastApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A22D5FB222BCD60A0085FBE6 /* FastApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22D5FB522BCD60A0085FBE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A22D5FB622BCD60A0085FBE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,23 @@
 		A22D5FC122BCD60A0085FBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22D5FC322BCD60A0085FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22D5FC422BCD60A0085FBE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A22D5FD422BCDB7A0085FBE6 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A22D5FD722BCDF0B0085FBE6 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A22D5FD822BCDF0B0085FBE6 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A22D5FDE22BCE11C0085FBE6 /* Vendor */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vendor; sourceTree = "<group>"; };
+		A22D5FE022BCE12F0085FBE6 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources; sourceTree = "<group>"; };
+		A22D5FE222BCE21C0085FBE6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A22D5FE322BCE3170085FBE6 /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		A22D5FE422BCE32C0085FBE6 /* AppApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppApi.h; sourceTree = "<group>"; };
+		A22D5FE522BCE8AB0085FBE6 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A22D5FE622BCE8AB0085FBE6 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A22D5FE822BCE8D00085FBE6 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		A22D5FE922BCE8D00085FBE6 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		A22D5FEE22BCE9200085FBE6 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		A22D5FEF22BCE9200085FBE6 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		A22D5FF122BCE9510085FBE6 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		A22D5FF222BCE9510085FBE6 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		A567CBBD5F109AF324BBAAAC /* libPods-FastApp-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastApp-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5F55B04A70C5F2A0EFC89A /* libPods-FastApp-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C3E2599D083EC9DE1DE79AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6531EE95B5E68649E0544132 /* Pods-FastApp-iOS.debug.xcconfig */,
+				2046D5F11A2C0D7137E7FD59 /* Pods-FastApp-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95889D57C5CC18B64720BE1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A567CBBD5F109AF324BBAAAC /* libPods-FastApp-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A22D5FA922BCD60A0085FBE6 = {
 			isa = PBXGroup;
 			children = (
 				A22D5FB422BCD60A0085FBE6 /* FastApp-iOS */,
 				A22D5FB322BCD60A0085FBE6 /* Products */,
+				5C3E2599D083EC9DE1DE79AF /* Pods */,
+				95889D57C5CC18B64720BE1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +105,137 @@
 		A22D5FB422BCD60A0085FBE6 /* FastApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A22D5FD522BCDB920085FBE6 /* Vendor */,
+				A22D5FD322BCD7CA0085FBE6 /* SupportFiles */,
+				A22D5FD122BCD6820085FBE6 /* Resources */,
+				A22D5FCF22BCD6680085FBE6 /* Service */,
+				A22D5FCD22BCD6490085FBE6 /* Sections */,
+				A22D5FCC22BCD6420085FBE6 /* Models */,
+				A22D5FCB22BCD6340085FBE6 /* Application */,
+			);
+			path = "FastApp-iOS";
+			sourceTree = "<group>";
+		};
+		A22D5FCB22BCD6340085FBE6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				A22D5FB522BCD60A0085FBE6 /* AppDelegate.h */,
 				A22D5FB622BCD60A0085FBE6 /* AppDelegate.m */,
-				A22D5FB822BCD60A0085FBE6 /* ViewController.h */,
-				A22D5FB922BCD60A0085FBE6 /* ViewController.m */,
-				A22D5FBB22BCD60A0085FBE6 /* Main.storyboard */,
+				A22D5FE322BCE3170085FBE6 /* AppConfig.h */,
+				A22D5FD422BCDB7A0085FBE6 /* Constant.h */,
+				A22D5FE422BCE32C0085FBE6 /* AppApi.h */,
+				A22D5FE222BCE21C0085FBE6 /* PrefixHeader.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A22D5FCC22BCD6420085FBE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FD722BCDF0B0085FBE6 /* BaseModel.h */,
+				A22D5FD822BCDF0B0085FBE6 /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A22D5FCD22BCD6490085FBE6 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FD622BCDE670085FBE6 /* Base */,
+				A22D5FDB22BCE0320085FBE6 /* part2 */,
+				A22D5FDA22BCE0280085FBE6 /* part1 */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		A22D5FCF22BCD6680085FBE6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FF522BD0C320085FBE6 /* Category */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A22D5FD122BCD6820085FBE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FE022BCE12F0085FBE6 /* Resources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A22D5FD322BCD7CA0085FBE6 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				A22D5FBE22BCD60A0085FBE6 /* Assets.xcassets */,
 				A22D5FC022BCD60A0085FBE6 /* LaunchScreen.storyboard */,
 				A22D5FC322BCD60A0085FBE6 /* Info.plist */,
 				A22D5FC422BCD60A0085FBE6 /* main.m */,
 			);
-			path = "FastApp-iOS";
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A22D5FD522BCDB920085FBE6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FDE22BCE11C0085FBE6 /* Vendor */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A22D5FD622BCDE670085FBE6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FE522BCE8AB0085FBE6 /* BaseViewController.h */,
+				A22D5FE622BCE8AB0085FBE6 /* BaseViewController.m */,
+				A22D5FE822BCE8D00085FBE6 /* BaseNavigationController.h */,
+				A22D5FE922BCE8D00085FBE6 /* BaseNavigationController.m */,
+				A22D5FEE22BCE9200085FBE6 /* BaseTableViewController.h */,
+				A22D5FEF22BCE9200085FBE6 /* BaseTableViewController.m */,
+				A22D5FF122BCE9510085FBE6 /* BaseTabBarController.h */,
+				A22D5FF222BCE9510085FBE6 /* BaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A22D5FDA22BCE0280085FBE6 /* part1 */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FDC22BCE0500085FBE6 /* Views */,
+				A22D5FB822BCD60A0085FBE6 /* ViewController.h */,
+				A22D5FB922BCD60A0085FBE6 /* ViewController.m */,
+				A22D5FBB22BCD60A0085FBE6 /* Main.storyboard */,
+			);
+			path = part1;
+			sourceTree = "<group>";
+		};
+		A22D5FDB22BCE0320085FBE6 /* part2 */ = {
+			isa = PBXGroup;
+			children = (
+				A22D5FDD22BCE05F0085FBE6 /* Views */,
+			);
+			path = part2;
+			sourceTree = "<group>";
+		};
+		A22D5FDC22BCE0500085FBE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A22D5FDD22BCE05F0085FBE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A22D5FF522BD0C320085FBE6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A22D5FC822BCD60A0085FBE6 /* Build configuration list for PBXNativeTarget "FastApp-iOS" */;
 			buildPhases = (
+				D79B6033C2F350D4D401CFF6 /* [CP] Check Pods Manifest.lock */,
 				A22D5FAE22BCD60A0085FBE6 /* Sources */,
 				A22D5FAF22BCD60A0085FBE6 /* Frameworks */,
 				A22D5FB022BCD60A0085FBE6 /* Resources */,
+				A7FA6A0FC57A02573248AA43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,13 +297,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22D5FDF22BCE11C0085FBE6 /* Vendor in Resources */,
 				A22D5FC222BCD60A0085FBE6 /* LaunchScreen.storyboard in Resources */,
 				A22D5FBF22BCD60A0085FBE6 /* Assets.xcassets in Resources */,
 				A22D5FBD22BCD60A0085FBE6 /* Main.storyboard in Resources */,
+				A22D5FE122BCE12F0085FBE6 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7FA6A0FC57A02573248AA43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastApp-iOS/Pods-FastApp-iOS-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastApp-iOS/Pods-FastApp-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79B6033C2F350D4D401CFF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastApp-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A22D5FAE22BCD60A0085FBE6 /* Sources */ = {
@@ -142,7 +360,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22D5FBA22BCD60A0085FBE6 /* ViewController.m in Sources */,
+				A22D5FE722BCE8AB0085FBE6 /* BaseViewController.m in Sources */,
+				A22D5FEA22BCE8D00085FBE6 /* BaseNavigationController.m in Sources */,
+				A22D5FF022BCE9200085FBE6 /* BaseTableViewController.m in Sources */,
+				A22D5FF322BCE9510085FBE6 /* BaseTabBarController.m in Sources */,
 				A22D5FC522BCD60A0085FBE6 /* main.m in Sources */,
+				A22D5FD922BCDF0B0085FBE6 /* BaseModel.m in Sources */,
 				A22D5FB722BCD60A0085FBE6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +506,12 @@
 		};
 		A22D5FC922BCD60A0085FBE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6531EE95B5E68649E0544132 /* Pods-FastApp-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "FastApp-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "FastApp-iOS/Application/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FastApp-iOS/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +524,12 @@
 		};
 		A22D5FCA22BCD60A0085FBE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2046D5F11A2C0D7137E7FD59 /* Pods-FastApp-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "FastApp-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "FastApp-iOS/Application/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FastApp-iOS/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

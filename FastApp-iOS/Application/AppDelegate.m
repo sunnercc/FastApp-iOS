@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self setupNetwork];
     return YES;
 }
 
@@ -45,6 +46,29 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - setup
+- (void)setupNetwork {
+    [XMCenter setupConfig:^(XMConfig * _Nonnull config) {
+        config.generalServer = api_prefix;
+        config.generalHeaders = @{};
+        config.generalParameters = @{};
+        config.generalUserInfo = @{};
+        config.callbackQueue = dispatch_get_main_queue();
+        config.engine = [XMEngine sharedEngine];
+#ifdef DEBUG
+        config.consoleLog = YES;
+#endif
+    }];
+    
+    [XMCenter setErrorProcessBlock:^(XMRequest * _Nonnull request, NSError *__autoreleasing  _Nullable * _Nullable error) {
+        //
+    }];
+    
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        //
+    }];
 }
 
 
